@@ -1,0 +1,52 @@
+/* Notification */
+.navbar-nav .badge-number {
+  position: absolute;
+  inset: 4px 6px auto auto;
+  font-weight: normal;
+  font-size: 11px;
+  padding: 3px 6px;
+}
+.navbar-nav .notifications .notification-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: 0.3s;
+}
+.navbar-nav .notifications .notification-item i {
+  margin: 0 20px 0 10px;
+  font-size: 24px;
+}
+.navbar-nav .notifications .notification-item h4 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.navbar-nav .notifications .notification-item p {
+  font-size: 13px;
+  margin-bottom: 1px;
+  color: #919191;
+}
+.navbar-nav .notifications .notification-item:hover {
+  background-color: #f6f9ff;
+}
+
+/*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+.footer {
+  padding: 20px 0;
+  font-size: 14px;
+  transition: all 0.3s;
+  border-top: 1px solid #cddfff;
+  background: #0096ff;
+}
+.footer .copyright {
+  text-align: center;
+  color: #012970;
+}
+.footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #012970;
+}
